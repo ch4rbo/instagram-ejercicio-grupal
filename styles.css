@@ -1,4 +1,17 @@
-.titulo {
+.titulo.h1 {
 
     font-family: 'Style Script', cursive;
+    font-size: 35px;
+}
+
+.nav-pills .nav-item .nav-link:not(.active){
+    color: #bdbdbd;
+}
+
+.nav-pills .nav-item .nav-link:not(.active):hover{
+    color: grey;
+}
+
+.nav-pills .nav-item .nav-link.active{
+    background-color: grey;
 }
